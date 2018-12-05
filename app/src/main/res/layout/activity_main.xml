@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="222dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/startReadingBeaconsButton"
+            android:layout_width="152dp"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/comenzar"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="35dp" />
+
+        <Button
+            android:id="@+id/stopReadingBeaconsButton"
+            android:layout_width="132dp"
+            android:layout_height="77dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="@android:color/holo_red_light"
+            android:enabled="false"
+            android:text="@string/parar"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="39dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
